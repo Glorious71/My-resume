@@ -1,0 +1,115 @@
+.resume {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.Container_Left {
+    display: flex;
+    position: absolute;
+    width: 370px;
+    height: 1319px;
+    left: 40px;
+    top: 40px;
+    
+    background: #E0EBFE;
+    border-radius: 0px;    
+}
+
+.Portrait {
+    position: absolute;
+    width: 370px;
+    height: 354px;
+    left: 0px;
+    top: 80px;
+    
+    background: #B1CCFF;
+}
+
+.face {
+    width: 100%;
+}
+
+.Contact {
+    position: absolute;
+    width: 191px;
+    height: 83px;
+    left: 80px;
+    top: 485px;    
+}
+
+.Tech_Skills {
+    position: absolute;
+    width: 121px;
+    height: 203px;
+    left: 80px;
+    top: 615px;    
+}
+
+.Soft_Skills {
+    position: absolute;
+    width: 113px;
+    height: 131px;
+    left: 80px;
+    top: 862px;    
+}
+
+.Container_Right {
+    display: flex;
+    position: absolute;
+    width: 830px;
+    height: 1319px;
+    left: 458px;
+    top: 40px;
+}
+
+.vacantion {
+    position: absolute;
+    width: 525px;
+    height: 206px;
+    left: 88px;
+    top: 142px;    
+}
+
+.projects {
+    position: absolute;
+    width: 525px;
+    height: 107px;
+    left: 88px;
+    top: 412px;    
+}
+
+.Freelance {
+    position: absolute;
+    width: 525px;
+    height: 213px;
+    left: 88px;
+    top: 570px;    
+}
+
+.Banderogusak {
+    position: absolute;
+    width: 525px;
+    height: 150px;
+    left: 88px;
+    top: 799px;
+}
+
+.BestUA {
+    position: absolute;
+    width: 525px;
+    height: 126px;
+    left: 88px;
+    top: 969px;    
+}
+
+.Education {
+    position: absolute;
+    width: 298px;
+    height: 114px;
+    left: 88px;
+    top: 1138px;
+}
