@@ -1,13 +1,31 @@
-.resume {
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e5e5e5;
+    padding: 40px;
+    
+}
+/*About me*/
+h2 {
+    font-size: 35px;
+}
+
+/*.project-item {
+    background-color: yellow;
+}*/
+
+.Wrapper {
     display: flex;
     position: relative;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
+   /*justify-content: space-around;
+    flex-wrap: wrap;*/
+    background: #ffffff;
+    /*width: 100%;
+    max-width: 1200px;*/
 
 }
 
-.Container_Left {
+/*.Left {
     display: flex;
     position: absolute;
     width: 370px;
@@ -55,26 +73,27 @@
     height: 131px;
     left: 80px;
     top: 862px;    
-}
-
-.Container_Right {
-    display: flex;
-    position: absolute;
-    width: 830px;
+}*/
+/*maim-content*/
+.maim-content {
+    /*display: flex;
+    position: absolute;*/
+    padding: 88;
+    /*width: 830px;
     height: 1319px;
     left: 458px;
-    top: 40px;
+    top: 40px;*/
 }
 
-.vacantion {
+/*.my-profession {
     position: absolute;
     width: 525px;
     height: 206px;
     left: 88px;
     top: 142px;    
-}
+}*/
 
-.projects {
+/*.projects {
     position: absolute;
     width: 525px;
     height: 107px;
@@ -112,4 +131,4 @@
     height: 114px;
     left: 88px;
     top: 1138px;
-}
+}*/
